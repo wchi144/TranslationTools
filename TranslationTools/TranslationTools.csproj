@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\timel\.nuget\packages\kawazu\1.1.4\contentFiles\any\net5.0\AUTHORS" />
+    <Content Remove="C:\Users\timel\.nuget\packages\kawazu\1.1.4\contentFiles\any\net5.0\char.bin" />
+    <Content Remove="C:\Users\timel\.nuget\packages\kawazu\1.1.4\contentFiles\any\net5.0\COPYING" />
+    <Content Remove="C:\Users\timel\.nuget\packages\kawazu\1.1.4\contentFiles\any\net5.0\matrix.bin" />
+    <Content Remove="C:\Users\timel\.nuget\packages\kawazu\1.1.4\contentFiles\any\net5.0\sys.dic" />
+    <Content Remove="C:\Users\timel\.nuget\packages\kawazu\1.1.4\contentFiles\any\net5.0\unk.dic" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+    <PackageReference Include="Tesseract" Version="4.1.1" />
+    <PackageReference Include="Tesseract.Drawing" Version="4.1.1" />
+    <PackageReference Include="WanaKanaSharp" Version="0.1.1" />
+  </ItemGroup>
+
+</Project>
